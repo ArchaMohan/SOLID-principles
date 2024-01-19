@@ -1,0 +1,7 @@
+package com.ilp.service;
+
+public interface SigninService {
+
+	void signIn(String useremail, String password);
+
+}

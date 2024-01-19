@@ -1,0 +1,36 @@
+package com.ilp.utility;
+
+import com.ilp.services.EmailValidator;
+import com.ilp.services.NameValidator;
+import com.ilp.services.PasswordValidator;
+import com.ilp.services.Validation;
+
+public class UserValidation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 String email="example@gmail.com";
+		 String name="Abc";
+		 String password ="Abc@1243";
+		 
+//		 Validation nameValidator = new NameValidator();
+//		 Validation emailValidator = new EmailValidator();
+//		 Validation passwordValidator = new PasswordValidator();
+//		 
+//		 passwordValidator.validate(password);
+//		 emailValidator.validate(email);
+//		 nameValidator.validate(name);
+	
+		 
+		 NameValidator nameValidator =new NameValidator();
+		 nameValidator.validate(name);
+
+	}
+
+	
+
+	}
+
+

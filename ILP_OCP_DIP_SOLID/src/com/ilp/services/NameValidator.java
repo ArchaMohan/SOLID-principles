@@ -1,0 +1,24 @@
+package com.ilp.services;
+
+public class NameValidator implements Validation {
+
+	@Override
+	public void validate(String data) {
+		
+		
+		String name=data;
+		boolean isValidName = name.matches("^[a-zA-Z\\s]+$");
+
+	    if (isValidName) {
+	    	
+	         System.out.println("Name is valid.");
+	        }
+	    
+	    else {
+	            System.out.println("Name is not valid.");
+	        }
+		
+		
+	}
+
+}
